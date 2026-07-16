@@ -1,4 +1,5 @@
 const techs = [
+  "React",
   "JavaScript",
   "HTML5",
   "CSS3",
