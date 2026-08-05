@@ -13,13 +13,13 @@ export const projects = [
     live: "https://ai-habit-tracker-phi.vercel.app",
   },
   {
-    title: "***** *******  *****",
+    title: "ZenFox",
     image: blogImg,
     description:
-      "############################################.",
-    tech: ["React", "Express", "MongoDB"],
-    github: "#",
-    live: "#",
+      "My Frontend Project ",
+    tech: ["React.js"],
+    github: "https://github.com/aakil-khan/Zenfox",
+    live: "https://zenfox-3zwjl0bby-akil-khan-s-projects.vercel.app/",
   },
   {
     title: "*** ****** *********",
