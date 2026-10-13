@@ -2,6 +2,7 @@ import habitImg from "../assets/projects/habit.png";
 import blogImg from "../assets/projects/blog.png";
 import portfolioImg from "../assets/projects/portfolio.png";
 import comfyimg from "../assets/projects/comfyhere.png";
+import auraimg from "../assets/projects/aura.png";
 
 export const projects = [
    
@@ -40,5 +41,14 @@ export const projects = [
     tech: ["React", "Tailwind", "Framer Motion","Recharts","Lucide React"],
     github: "https://github.com/aakil-khan/Melodify",
     live: "https://melodify-n6hiczbpw-akil-khan-s-projects.vercel.app/",
+  },
+   {
+    title: "AURA",
+    image: auraimg,
+    description:
+      "AURA, a futuristic energy reactor ",
+    tech: ["3D modeling", "Blender", " GLB export and optimization","Three.js"],
+    github: "https://github.com/aakil-khan/AURA-Futuristic-Energy-Reactor",
+    live: "https://aakil-khan.github.io/AURA-Futuristic-Energy-Reactor/",
   },
 ];
