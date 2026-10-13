@@ -1,8 +1,10 @@
 import habitImg from "../assets/projects/habit.png";
 import blogImg from "../assets/projects/blog.png";
 import portfolioImg from "../assets/projects/portfolio.png";
+import comfyimg from "../assets/projects/comfyhere.png";
 
 export const projects = [
+   
   {
     title: "AI Habit Tracker",
     image: habitImg,
@@ -11,6 +13,15 @@ export const projects = [
     tech: ["React", "Node.js", "MongoDB", "Tailwind"],
     github: "https://github.com/",
     live: "https://ai-habit-tracker-phi.vercel.app",
+  },
+  {
+    title: "ComfyHere",
+    image: comfyimg,
+    description:
+      "ComfyHere is the Hotel Booking Platform",
+    tech: ["MERN", "Cloudinary image uploads", " Mapbox geocoding","Joi server-side validation","MVC model "],
+    github: "https://github.com/aakil-khan/Melodify",
+    live: "https://github.com/aakil-khan/comfyHere",
   },
   {
     title: "ZenFox",

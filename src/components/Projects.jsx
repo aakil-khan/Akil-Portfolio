@@ -5,10 +5,8 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-28 bg-white dark:bg-slate-900 transition-colors duration-300"
-    >
+      className="py-28 bg-white dark:bg-slate-900 transition-colors duration-300" >
       <div className="max-w-7xl mx-auto px-6">
-
         <p className="text-center uppercase tracking-[4px] text-gray-500 dark:text-gray-400 mb-4">
           Featured Work
         </p>
@@ -39,25 +37,20 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-60 object-cover"
-              />
+                className="w-full h-60 object-cover"/>
 
               <div className="p-6">
-
                 <h3 className="text-2xl font-semibold mb-3 text-black dark:text-white">
                   {project.title}
                 </h3>
-
                 <p className="text-gray-600 dark:text-gray-300 mb-5">
                   {project.description}
                 </p>
-
                 <div className="flex flex-wrap gap-2 mb-5">
                   {project.tech.map((item) => (
                     <span
                       key={item}
-                      className="px-3 py-1 text-sm rounded-full bg-gray-100 dark:bg-slate-700 dark:text-white"
-                    >
+                      className="px-3 py-1 text-sm rounded-full bg-gray-100 dark:bg-slate-700 dark:text-white">
                       {item}
                     </span>
                   ))}
@@ -69,8 +62,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 transition"
-                  >
-                    Live Demo
+                  > Live Demo
                   </a>
 
                   <a
