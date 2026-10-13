@@ -21,8 +21,8 @@ export const projects = [
     description:
       "ComfyHere is the Hotel Booking Platform",
     tech: ["MERN", "Cloudinary image uploads", " Mapbox geocoding","Joi server-side validation","MVC model "],
-    github: "https://github.com/aakil-khan/Melodify",
-    live: "https://github.com/aakil-khan/comfyHere",
+    github: "https://github.com/aakil-khan/comfyHere",
+    live: "https://comfyhere.onrender.com/listings",
   },
   {
     title: "ZenFox",
